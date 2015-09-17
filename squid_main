@@ -1,0 +1,11 @@
+Sub squid_main()
+'`````````````````````````````````````````
+    Call squid_setup 
+'creates copy of raw data on a new sheet called 'squid'
+'deletes unneeded rows&columns of raw data file (i.e., leaves only field and emu)
+'two sheets will be present (1. original data 2.modified data)
+'`````````````````````````````````````````
+    Call squid_graphs
+'makes M vs H plot and plots diamagnetic contribution with trendline
+'you need to adjust the plotted cells to fit data
+End Sub
